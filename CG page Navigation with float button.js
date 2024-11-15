@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         CodeGym Page Navigation with Float button
+// @author       Sean
 // @namespace    http://tampermonkey.net/
 // @version      2.0
 // @description  Navigate to the next and previous activities on CodeGym by pressing Ctrl + Space, and float the next and previous buttons
 // @match        *://*.codegym.vn/*
 // @grant        none
+// // @updateURL    https://raw.githubusercontent.com/CleanCodeCleanLifeThisCodeNotMine/sideProj/refs/heads/main/CG%20page%20Navigation%20with%20float%20button.js
+// // @downloadURL  https://raw.githubusercontent.com/CleanCodeCleanLifeThisCodeNotMine/sideProj/refs/heads/main/CG%20page%20Navigation%20with%20float%20button.js
 // ==/UserScript==
 
 (function() {
