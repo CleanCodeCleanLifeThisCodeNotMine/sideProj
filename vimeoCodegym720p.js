@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Vimeo Set Quality to 720
 // @version      0.3
-// @description  Set Vimeo video quality to 1080p automatically and close the menu
+// @description  Set Vimeo video quality to 720p automatically and close the menu
 // @match        https://james.codegym.vn/*
 // @grant        none
 // @license      GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
@@ -26,7 +26,7 @@
         });
     };
 
-    const setQualityTo1080p = async () => {
+    const setQualityTo720p = async () => {
         try {
             console.log('Attempting to set quality to 720p');
             const player = await waitForElement('.vp-player-ui-container');
